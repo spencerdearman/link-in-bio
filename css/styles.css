@@ -1,0 +1,85 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: conic-gradient(from 300deg at 50% 50%, #e0e0e0, #babbbe, #95989e, #72767e, #515560, #313744, #141b29);
+}
+
+/* Debugging Border */
+/* 
+* {
+  border: 1px red dashed;
+} */
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.first-name {
+  color: white;
+}
+
+.main-container {
+  max-width: 640px;
+  margin: auto;
+}
+
+.avatar-image {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 128px;
+  border: black solid 5px;
+}
+
+.thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;
+}
+
+.item {
+  margin-bottom: 20px;
+  background-color: slategray;
+  opacity: 80%;
+  display: flex;
+  align-items: center;
+  border-radius: 1000px;
+  padding: 5px;
+  padding-right: 53px;
+  box-shadow: 3px 6px 39px -3px rgba(48,26,48,1);
+}
+
+.link-text {
+  text-align: center;
+  flex-grow: 1;
+  font-family: "Inconsolata";
+}
+
+.image-row {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.name-row {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: "Karla";
+}
+
+.social-icons-row {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Inconsolata";
+}
